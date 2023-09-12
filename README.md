@@ -17,5 +17,5 @@ As part of Grover's unstructured search algorithm, the oracle circuit is given a
 ### Circuit Implementation
 The user inputs a binary string that represents the solution to a given search problem. The program them simulates a quantum circuit via Qiskit that corresponds to the oracle for that given string. The process is as follows:
 
--Apply $X$ gates to qubits corresponding to a '0' in the binary string
--
+- Apply $X$ gates to qubits corresponding to a '0' in the binary string
+- 
