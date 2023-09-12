@@ -54,4 +54,4 @@ We can see that the only state that is inverted is  $| 1 \rangle^n$, where all q
 </p>
 
 
-Where $| x \rangle$ is the given solution state.
+where $| x \rangle$ is the given solution state.
