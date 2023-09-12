@@ -29,7 +29,7 @@ The user inputs a binary string that represents the solution to a given search p
 </p>
 
 ### Analysis
-The matrix representation for the multi-control phase (MCP) gate is:
+The matrix representation for the multi-control phase (MCP) gate with phase $\pi$ is:
 
 ```math
 \begin{pmatrix}
