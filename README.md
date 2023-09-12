@@ -35,7 +35,7 @@ The matrix representation for the multi-control phase (MCP) gate is:
 \begin{bmatrix}
 1 & 0 & \dots &  &  \\
 0 & 1 &  &  &  \\
-\dots &  & \ddots &  &  \\
+\vdots &  & \ddots &  &  \\
  &  &  & 1 &  \\
  &  &  &  & -1 
 \end{bmatrix} 
