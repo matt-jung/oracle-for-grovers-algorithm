@@ -4,6 +4,7 @@
 </p>
 
 ## How it Works
+### Function of the Oracle Circuit
 As part of Grover's unstructured search algorithm, the oracle circuit is given an equal superposition of all possible input states and aims to identify the states that are solutions to a given search problem. The oracle does this by inverting the phase of states that correspond to solutions, and doing nothing to all other states. I.e.
 
 <p align="center">
@@ -12,3 +13,9 @@ As part of Grover's unstructured search algorithm, the oracle circuit is given a
 <p align="center">
   $U_{oracle} | x \rangle = | x \rangle$ when $| x \rangle$ is not a solution
 </p>
+
+### Circuit Implementation
+The user inputs a binary string that represents the solution to a given search problem. The program them simulates a quantum circuit via Qiskit that corresponds to the oracle for that given string. The process is as follows:
+
+-Apply $X$ gates to qubits corresponding to a '0' in the binary string
+-
