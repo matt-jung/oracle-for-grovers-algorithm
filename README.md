@@ -1,4 +1,14 @@
-# qiskit-introduction-course-project
-The aim of this project is to create a program that takes a given binary string and creates an oracle circuit for Grover's search algorithm.
+# Creating an Oracle Circuit for Grover's Algorithm
+<p align="center">
+  <img width="602" alt="Screenshot 2023-09-12 at 08 41 37" src="https://github.com/matt-jung/oracle-for-grovers-algorithm/assets/133035195/6b601b13-9a38-43e6-bd98-5952cd7c5f37">
+</p>
 
-The 'n-qubit-invert' files are tests for flipping the sign of target n-qubit states for small n. For 2- and 3-qubit systems, the cz and ccz gates are sufficient for inverting the target state once it has been transformed to |11> or |111>. However, for larger systems these are substituted for the mcp (multi-control phase) gate with a phase shift of pi radians, which essentially does the same as the cz and ccz gates but can be generalised for larger n-qubit systems.
+## How it Works
+As part of Grover's unstructured search algorithm, the oracle circuit is given an equal superposition of all possible input states and aims to identify the states that are solutions to a given search problem. The oracle does this by inverting the phase of states that correspond to solutions, and doing nothing to all other states. I.e.
+
+<p align="center">
+  $U | x \rangle = -| x \rangle$ when $| x \$ is a solution
+</p>
+<p align="center">
+  $U | x \rangle = | x \rangle$ when $| x \$ is not a solution
+</p>
