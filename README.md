@@ -45,8 +45,13 @@ We can see that the only state that is inverted is  $| 1 \rangle^n$, where all q
 
 <p align="center">
   1. $| x \rangle \rightarrow | 1 \rangle^n$
+</p>
+<p align="center">
   2. $| 1 \rangle^n \rightarrow -| 1 \rangle^n$
+</p>
+<p align="center">
   3. $-| 1 \rangle^n \rightarrow -| x \rangle$
 </p>
+
 
 Where $| x \rangle$ is the given solution state.
