@@ -41,7 +41,7 @@ The matrix representation for the multi-control phase (MCP) gate with phase $\pi
 \end{pmatrix}
 ```
 
-We can see that the only state that is inverted is  $| 1 \rangle^n$, where all qubits are in the state $| 1 \rangle$. Thus the oracle first transforms the solution state to $| 1 \rangle^n$ by applying $X$ gates to each qubit in the state $| 0 \rangle$. Once the MCP gate has been applied and the state has been inverted, $X$ gates are reapplied to the same qubits as before to transform the state into the inerted version of the solution state. The steps given above thus perform the following transformations:
+We can see that the only state that is inverted is  $| 1 \rangle^n$, where all qubits are in the state $| 1 \rangle$. Thus the oracle first transforms the solution state to $| 1 \rangle^n$ by applying $X$ gates to each qubit in the state $| 0 \rangle$. Once the MCP gate has been applied and the state has been inverted, $X$ gates are reapplied to the same qubits as before to transform the state into the inverted version of the solution state. The steps given above thus perform the following transformations:
 
 1. $| x \rangle \rightarrow | 1 \rangle^n$
 2. $| 1 \rangle^n$ \rightarrow -| 1 \rangle^n$
