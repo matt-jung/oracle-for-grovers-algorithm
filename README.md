@@ -31,11 +31,14 @@ The user inputs a binary string that represents the solution to a given search p
 ### Analysis
 The matrix representation for the multi-control phase (MCP) gate is:
 
-$ \begin{bmatrix}
+```math
+\begin{bmatrix}
 1 & 0 & \dots &  &  \\
 0 & 1 &  &  &  \\
 \dots &  & \ddotss &  &  \\
  &  &  & 1 &  \\
  &  &  &  & -1 
-\end{bmatrix}  $
+\end{bmatrix} 
+```
+
 
