@@ -7,8 +7,8 @@
 As part of Grover's unstructured search algorithm, the oracle circuit is given an equal superposition of all possible input states and aims to identify the states that are solutions to a given search problem. The oracle does this by inverting the phase of states that correspond to solutions, and doing nothing to all other states. I.e.
 
 <p align="center">
-  $U | x \rangle = -| x \rangle$ when $| x \rangle$ is a solution
+  $U_{oracle} | x \rangle = -| x \rangle$ when $| x \rangle$ is a solution
 </p>
 <p align="center">
-  $U | x \rangle = | x \rangle$ when $| x \rangle$ is not a solution
+  $U_{oracle} | x \rangle = | x \rangle$ when $| x \rangle$ is not a solution
 </p>
